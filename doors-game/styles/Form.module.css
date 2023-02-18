@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form > div {
+    display: flex;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    cursor: pointer;
+}
+
+.button {
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(100, 231, 111);
+    border: none;
+    margin: 10px;
+}
