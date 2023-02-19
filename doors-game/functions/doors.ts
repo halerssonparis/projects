@@ -12,7 +12,7 @@ export function updateDoors(doors: DoorModel[], modifiedDoors: DoorModel): DoorM
     return doors.map(currentDoor => {
         const isTheModifiedDoor = currentDoor.number === modifiedDoors.number
 
-        if(isTheModifiedDoor) {
+        if (isTheModifiedDoor) {
             return modifiedDoors
         } else {
             return modifiedDoors.open ? currentDoor : currentDoor.unselect()

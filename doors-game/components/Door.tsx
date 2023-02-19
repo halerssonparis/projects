@@ -31,7 +31,7 @@ export default function Door(props: DoorProps) {
         <div className={styles.area} onClick={changeSelected}>
             <div className={`${styles.structure} ${selected}`}>
                 {door.closed ?
-                    renderDoor() : 
+                    renderDoor() :
                     door.hasGift ? <Gift /> : false
                 }
             </div>
