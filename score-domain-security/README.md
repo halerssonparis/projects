@@ -2,7 +2,7 @@
 
 ## Project
 
-### This project consist to register domains, and them run checks on this domains regarding security.
+### This project consists of registering domains and then running security checks on them.
 
 #
 
