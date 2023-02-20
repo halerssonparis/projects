@@ -2,7 +2,7 @@ import { DomainModel } from "./model";
 import { DomainRecord } from "./type";
 
 export interface IDomain {
-    create: (params: DomainRecord) => void
+    create: (params: DomainRecord) => Promise<boolean>
 }
 
 export class Domain implements IDomain {

@@ -1,4 +1,5 @@
 import { IDomain } from "../models/domain/controller";
+import { isDomain } from "../utils";
 
 class DomainController {
     domain;
@@ -9,7 +10,11 @@ class DomainController {
 
     async createDomain(domain: string) {
         try {
-            return await this.domain.create({ domain });
+            if (isDomain(domain)) {
+                return await this.domain.create({ domain });
+            } else {
+                throw new Error();
+            }
         } catch (error) {
             throw new Error();
         }
