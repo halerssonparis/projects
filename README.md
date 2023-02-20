@@ -2,7 +2,7 @@
 ## Author - Halersson Paris
 
 ## About me
-Software Engineer with 6 professional years
+Software Engineer with 6 years of professional experience
 
 BS in Computer Science
 
